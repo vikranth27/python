@@ -7,7 +7,7 @@ def sort(nums):
 
     for i in range(5):
         minpos = i
-        for j in range(i,6):
+        for j in range(i+1,6): #i+1 can reduce one iteration
             if nums[j] < nums[minpos]:
                 minpos = j
 
